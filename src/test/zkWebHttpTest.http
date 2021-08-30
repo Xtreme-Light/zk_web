@@ -1,0 +1,9 @@
+POST http://localhost:8080/config
+Content-Type: application/json
+
+{
+  "name": "test",
+  "zkAddress":"127.0.0.1:2181"
+}
+###
+GET http://localhost:8080/config
